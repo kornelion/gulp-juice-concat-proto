@@ -114,6 +114,8 @@ function gulpJuiceStream(conf, globalSettings) {
 
 				if (css.length > 0) {
 					$ = injectCSS($, css.join(''));
+					juice.widthElements = ['TABLE', 'TD', 'IMG','TH'];
+					juice.heightElements = ['TABLE', 'TD', 'IMG','TH'];
 					contents = juice($.html(), conf);
 					file.contents = new Buffer(contents);
 				}

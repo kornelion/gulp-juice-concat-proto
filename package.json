@@ -1,7 +1,7 @@
 {
-  "name": "gulp-juice-concat",
+  "name": "gulp-juice-concat-proto",
   "version": "1.1.3",
-  "description": "Pipe a list of html and css files and get out html files with inline css",
+  "description": "Pipe a list of html and css files and get out html files with inline css - adapted for specific use case",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -29,7 +29,7 @@
     "CSS",
     "gulpplugin"
   ],
-  "author": "Stephen Parente",
+  "author": "Walravens Jonathan",
   "license": "GPL-3.0",
-  "repository": "ingenuitydesign/gulp-juice-concat"
+  "repository": "kornelion/gulp-juice-concat-proto"
 }
